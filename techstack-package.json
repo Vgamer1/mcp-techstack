@@ -1,0 +1,15 @@
+{
+  "name": "mcp-techstack",
+  "version": "1.0.0",
+  "description": "Company tech stack lookup for sales agents. Detects 60+ technologies free via scraping; 4,500+ with Wappalyzer API key.",
+  "main": "index.js",
+  "type": "module",
+  "bin": { "mcp-techstack": "./index.js" },
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "sales", "techstack", "technographics", "wappalyzer", "builtwith", "agent", "crm"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.24.3"
+  }
+}
